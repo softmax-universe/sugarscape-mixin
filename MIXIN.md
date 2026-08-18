@@ -10,7 +10,7 @@ extra capabilities are discoverable.
 | | |
 |---|---|
 | **Game** | Sugarscape (v3) |
-| **Coworld** | `coworld-sugarscape` v3 — `cow_62dc18e9-5cf7-438b-8e05-5cb7c8a580bf`; manifest at the repo root of https://github.com/Metta-AI/coworld-sugarscape (public). *(Corrected 2026-08-18 from the stale `cow_049e7dc0…`; verified via `coworld leagues --json` — the live Solo/Duos/Commonwealth leagues all bind `cow_170e4f67…`.)* |
+| **Coworld** | `coworld-sugarscape` v3 — `cow_62dc18e9-5cf7-438b-8e05-5cb7c8a580bf`; manifest at the repo root of https://github.com/Metta-AI/coworld-sugarscape (public). *(Corrected 2026-08-18 from the stale `cow_049e7dc0…`; verified via `coworld leagues --json` — the live Solo/Duos/Commonwealth leagues all bind `cow_62dc18e9…`.)* |
 | **League(s)** | Solo (targeted generation): `league_620a74a7-eb1f-4386-b386-0e7246be4eb6` · Duos (targeted generation): `league_d5b48dfe-5e08-499f-80f1-63f14720c50c` · Commonwealth (handcrafted constitution): `league_dac00450-027a-45e6-9f6b-c9bda7ddd61d` |
 | **Game source of truth** | https://github.com/Metta-AI/coworld-sugarscape — public. `docs/RULES.md` is **test-enforced against the implementation** (`tests/test_rules_documentation.py`), so it outranks memory and this lab's own docs. Also `docs/TARGETS.md`, `docs/SCENARIOS.md`, `docs/PROTOCOL.md`. Never answer mechanics questions from memory |
 
