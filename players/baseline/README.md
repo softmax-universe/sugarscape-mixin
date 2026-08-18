@@ -16,7 +16,7 @@ policy means editing rulesets, not code.
 Provenance: dispatch and rulesets vendored from the game repo's
 target-aware baseline (`players/baseline/player.py` at coworld-sugarscape
 `d314c5f`), verified behaviorally identical across the full target
-catalog at vendoring time. It is intentionally simple — beating it is the
+catalog at vendoring time and re-verified at `a307912`. It is intentionally simple — beating it is the
 first improvement loop.
 
 Build: `tools/build.sh [--tag <image-tag>]` from the lab root (linux/amd64).

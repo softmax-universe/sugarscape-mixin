@@ -13,7 +13,7 @@ canonical `ruleset_sha256` of the changed library file in the row.
 
 | Version | Policy version id | Uploaded (UTC) | The one change (and its mechanism) | Runtime config | Validation | Notes |
 |---|---|---|---|---|---|---|
-| v0 | — (no uploads yet) | 2026-08-18 | Vendored upstream reference: dispatch + library exported from coworld-sugarscape `d314c5f` `players/baseline/player.py`, verified behaviorally identical across the full target catalog. Constitution `ruleset_sha256` `f13b0a218f455a9d06fe379d635043c1a5194d905e1dec1ea32f4a2efc671a37` | Dockerfile in this dir (linux/amd64, `PYTHONHASHSEED=0`) | unvalidated | Certification-baseline strength by design; the starting point, not a contender |
+| v0 | — (no uploads yet) | 2026-08-18 | Vendored upstream reference: dispatch + library exported from coworld-sugarscape `d314c5f` `players/baseline/player.py`, verified behaviorally identical across the full target catalog; re-verified unchanged at `a307912` (2026-08-18, post studio-play/onboarding merges). Constitution `ruleset_sha256` `f13b0a218f455a9d06fe379d635043c1a5194d905e1dec1ea32f4a2efc671a37` | Dockerfile in this dir (linux/amd64, `PYTHONHASHSEED=0`) | unvalidated | Certification-baseline strength by design; the starting point, not a contender |
 
 ## Submission decision records
 

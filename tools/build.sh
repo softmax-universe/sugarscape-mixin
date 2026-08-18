@@ -8,16 +8,18 @@
 # label the image with the game revision the library was last verified
 # against; it defaults to the pin below and does not change what is built.
 #
-# PINNED_GAME_REF rationale: coworld-sugarscape d314c5f is the revision the
-# library rulesets were exported from and verified behaviorally identical
-# to the bundled baseline (see players/baseline/VERSION_LOG.md v0). Bump it
-# when re-verifying the library against a newer game release.
+# PINNED_GAME_REF rationale: coworld-sugarscape a307912 is the latest main
+# at which the library rulesets were verified behaviorally identical to the
+# bundled baseline (originally exported at d314c5f; baseline player,
+# SugarLang validator, and target catalog unchanged between the two — see
+# players/baseline/VERSION_LOG.md v0). Bump it when re-verifying the
+# library against a newer game release.
 #
 # linux/amd64 is mandatory: the platform hard-checks it, and an arm64 image
 # will upload but fail to start in hosted episodes.
 set -euo pipefail
 
-PINNED_GAME_REF="d314c5f6a64cdc122219e9591ea7982df5ffdbb8"
+PINNED_GAME_REF="a3079122f4d8fad0fd6d5c211a1913c03aad8890"
 GAME_REF="$PINNED_GAME_REF"
 # Distinct from the game repo's compose-built "sugarscape-baseline" image.
 TAG="sugarscape-mixin-baseline:latest"
