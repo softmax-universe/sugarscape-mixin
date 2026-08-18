@@ -17,7 +17,7 @@
 # will upload but fail to start in hosted episodes.
 set -euo pipefail
 
-PINNED_GAME_REF="d314c5f"
+PINNED_GAME_REF="d314c5f6a64cdc122219e9591ea7982df5ffdbb8"
 GAME_REF="$PINNED_GAME_REF"
 # Distinct from the game repo's compose-built "sugarscape-baseline" image.
 TAG="sugarscape-mixin-baseline:latest"
