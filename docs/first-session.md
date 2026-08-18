@@ -31,7 +31,7 @@ this lab's `WORKING_CONTEXT.md`. Never re-ask a recorded answer.
 
 The seed asks whether the user prefers a quick static check or shipping
 straight to evaluation. Here the check **is** an evaluation: a full scored
-episode costs seconds locally and runs the real scorer. So don't pose that
+episode costs seconds to a minute locally and runs the real scorer. So don't pose that
 fork; record the stance as **"always pre-score locally before upload"**
 and say why in one line ("scoring is free here, so nothing ships
 unscored").

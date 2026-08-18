@@ -32,7 +32,8 @@ fine — see SEED.md's divergence stance.
 Sugarscape inverts the assumption behind "the live field is the only
 oracle": solo and commonwealth episodes seat one policy with no opponents,
 and the actual scoring function runs locally (in-process `run_episode()`,
-~5 s per 1,000-tick episode, reproducible on the pinned interpreter). By
+~6–70 s per 1,000-tick pool episode depending on world, reproducible on the
+pinned interpreter). By
 deliberate decision (James, 2026-08-18): **local paired sweeps at the
 pinned ref are admissible verdict evidence for solo/commonwealth score
 claims, with one hosted confirmation required before any league submit.**

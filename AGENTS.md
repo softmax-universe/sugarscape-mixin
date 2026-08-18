@@ -56,8 +56,8 @@ score is *enough*.
   variation — an LLM call at submission time included — passes upload and
   dies at the gate.
 - `players_per_user: 1`. Images are linux/amd64 only (hard-checked).
-- Episodes are seconds locally, minutes hosted; batches drain fast. Do not
-  import pacing habits from slow games.
+- Episodes are seconds-to-a-minute locally, minutes hosted; batches drain
+  fast. Do not import pacing habits from slow games.
 - Reproducibility: pinned interpreter + `PYTHONHASHSEED=0`; a recorded seed
   + config + rulesets reproduces an episode exactly.
 - `coworld` CLI reference: https://github.com/Metta-AI/coworld — read its

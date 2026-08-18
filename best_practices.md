@@ -9,8 +9,9 @@ User graduations accumulate alongside, marked with their recurrence evidence.
 Seeded at mixin authoring (2026-08-18) from the game's documented contracts,
 not from campaign recurrence:
 
-- **Pre-score locally before every upload.** A full scored episode is ~5 s
-  at the pinned ref; there is no reason to learn a score from the ladder.
+- **Pre-score locally before every upload.** A full scored episode costs
+  seconds to a minute at the pinned ref; there is no reason to learn a
+  score from the ladder.
 - **Validate before you reason about a ruleset.** `parse_ruleset` reports
   node/depth/byte budgets exactly; an invalid ruleset is never scored.
 - **Keep a survival guard.** Extinction and empty measurements score 0 in
