@@ -41,6 +41,18 @@ Score = survivors × mean window wellness, no ceiling. The three
    subtracts happiness (unless disease pushes aggression above 1): zero
    aggression is close to strictly correct.
 
+**Caveat (measured 2026-08-18, cubi-bismarck):** for the Commonwealth *world*,
+fertility is NOT an available lever — the variant ships `trait_ranges: null`
+→ default clamp `[0,1]`, and the shipped baseline already submits `fertility:
+1` (the max), so #2's "dominant lever" is already pinned by default. The
+baseline also pins the other degenerate optima (aggression 0; trade, lending
+maxed). Measured consequence: the shipped baseline is already strong — local
+seed-mean **~722** (hosted ~681), i.e. at/above the field leader. Treat this
+league as "beat an already-tuned baseline" (a real, noise-limited optimization
+problem), NOT "grab the obvious fertility win" — that win is already banked.
+Refuted first-session guesses so far: additive resource-tilt on movement, and
+`lending→0` (both refuted by local paired sweeps).
+
 Current field (2026-08-18): 3 entrants, ~2× score spread (708 / 648 /
 373) — young frontier, likely the highest-ROI league for a new player.
 First question for any rival constitution: is its score population-driven

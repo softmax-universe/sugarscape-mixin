@@ -10,7 +10,7 @@ extra capabilities are discoverable.
 | | |
 |---|---|
 | **Game** | Sugarscape (v3) |
-| **Coworld** | `coworld-sugarscape` v3 — `cow_049e7dc0-f4b5-49f8-81df-59ea73493b6a`; manifest at the repo root of https://github.com/Metta-AI/coworld-sugarscape (public) |
+| **Coworld** | `coworld-sugarscape` v3 — `cow_62dc18e9-5cf7-438b-8e05-5cb7c8a580bf`; manifest at the repo root of https://github.com/Metta-AI/coworld-sugarscape (public). *(Corrected 2026-08-18 from the stale `cow_049e7dc0…`; verified via `coworld leagues --json` — the live Solo/Duos/Commonwealth leagues all bind `cow_62dc18e9…`.)* |
 | **League(s)** | Solo (targeted generation): `league_620a74a7-eb1f-4386-b386-0e7246be4eb6` · Duos (targeted generation): `league_d5b48dfe-5e08-499f-80f1-63f14720c50c` · Commonwealth (handcrafted constitution): `league_dac00450-027a-45e6-9f6b-c9bda7ddd61d` |
 | **Game source of truth** | https://github.com/Metta-AI/coworld-sugarscape — public. `docs/RULES.md` is **test-enforced against the implementation** (`tests/test_rules_documentation.py`), so it outranks memory and this lab's own docs. Also `docs/TARGETS.md`, `docs/SCENARIOS.md`, `docs/PROTOCOL.md`. Never answer mechanics questions from memory |
 
@@ -20,9 +20,9 @@ extra capabilities are discoverable.
 
 | | |
 |---|---|
-| **Upstream mixin** | {{MIXIN_REPO_URL}} |
-| **Commit** | {{COMMIT}} |
-| **Installed** | {{DATE}} |
+| **Upstream mixin** | https://github.com/Metta-AI/sugarscape-mixin |
+| **Commit** | a574ea6db3b4e8539578d1a0e0f800489d60f02d |
+| **Installed** | 2026-08-18 |
 
 This lab is a vendored copy and is expected to drift from upstream. That's
 fine — see SEED.md's divergence stance.
@@ -40,6 +40,18 @@ claims, with one hosted confirmation required before any league submit.**
 Live-only remains: version skew against the deployed build, duo opponents,
 league aggregation, and the commonwealth qualifier. Details in `skills/ab/`
 and `skills/eval-design/`.
+
+**Version-match is load-bearing (measured 2026-08-18, cubi-bismarck).** "Local
+sweeps are admissible verdict evidence" holds ONLY when the local checkout runs
+the SAME build the platform runs. Observed gap: this repo pins **v3.0.0**
+(`build.sh` PINNED_GAME_REF `a3079122…`) while the deployed Commonwealth scorer
+is **v3.3.0** (ref `41c8d6b7…`, not in the public repo). Same baseline
+constitution: local mean **722.5** vs hosted mean **681.3** — a ~6% systematic
+HIGH bias, larger than the gains this league realistically offers. So: (a) bump
+the pin to the deployed build before trusting local *deltas* for a submit; (b) a
+local↔deployed version gap is a **taint** on local verdict evidence, not just a
+"check the release notes" footnote. The required one hosted confirmation is what
+catches this — do not skip it.
 
 ## Skill manifest
 
