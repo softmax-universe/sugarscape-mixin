@@ -1,4 +1,4 @@
-# Tentative lessons — session buffer ({{GAME_NAME}} lab)
+# Tentative lessons — session buffer (Sugarscape lab)
 
 This session's candidate lessons about this game and this lab. Buffer eagerly
 and candidly; most will be noise, and that's fine — recurrence across sessions

@@ -1,4 +1,4 @@
-# Working context — {{GAME_NAME}} lab
+# Working context — Sugarscape lab
 
 The live, one-screen state of this lab *right now*. Not a log: finished work
 lives in git history, the version logs, and the experiment records. Prune on

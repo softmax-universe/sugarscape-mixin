@@ -1,4 +1,4 @@
-# Closed levers — {{GAME_NAME}}
+# Closed levers — Sugarscape
 
 Refuted levers in this game, with the numbers that killed them. `diagnose`
 consults this before proposing. Same format as the root register; keep it
