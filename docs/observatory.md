@@ -11,7 +11,7 @@ form and the raw REST form. This file adds only what is sugarscape-shaped.
 | Task | Command / route |
 |---|---|
 | Auth | `softmax login` (`--no-browser` headless), `softmax status` |
-| Download the coworld | `coworld download cow_049e7dc0-f4b5-49f8-81df-59ea73493b6a` |
+| Download the coworld | `coworld download cow_170e4f67-fc56-4307-aca9-12b0c650f4b0` |
 | Upload a policy (routine, ungated) | `coworld upload-policy <image> --name <policy>` — image must be linux/amd64; multi-role images need `--run <argv>` (omitting it is the classic silent worst-case-score failure) |
 | Submit to a league (THE gate) | `coworld submit <policy>[:vN] --league <id>` — league ids in `docs/leagues.md`. Commonwealth submissions then face the qualifier |
 | Check membership/qualifier | `coworld submissions --mine`, `coworld memberships --mine` — commonwealth runs `qualifying → competing`; a qualifier DQ means constitution drift (see diagnosis) |

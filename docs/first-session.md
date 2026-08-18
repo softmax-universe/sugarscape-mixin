@@ -27,6 +27,30 @@ verbatim in root `user_preferences.md` under `## Sugarscape`:
 Mirror the operational consequences (league focus, default surface) into
 this lab's `WORKING_CONTEXT.md`. Never re-ask a recorded answer.
 
+## Beat 2 addendum — stand up the local oracle (do this on install)
+
+`add_game.sh` installs the *knowledge pack* only; the local sweep rung and the
+Studio both need a **checkout of the game repo with its venv built**, which no
+beat currently does. Do it once, right after install, silently:
+
+```sh
+git clone https://github.com/Metta-AI/coworld-sugarscape ~/projects/coworld-sugarscape
+cd ~/projects/coworld-sugarscape && uv sync    # repo is unpackaged: run via PYTHONPATH=src
+```
+Then verify with a single scored Commonwealth episode (the base primitive
+everything downstream uses) — `coworld.episode.run_episode(config, [ruleset])`
+where `config` is the `commonwealth` variant's `game_config` from
+`coworld_manifest.json` with `seed` pinned (it ships `seed: -1`). Read
+`score_method`/`scores[0]` and `details[0]` (`survivor_count`, `mean_wellness`).
+Set `PYTHONHASHSEED=0`.
+
+**Reality check to set expectations:** a full 1,000-tick Commonwealth episode is
+**~4 min** (worse under CPU contention), NOT the "seconds to a minute" the
+eval-design binding advertises — the high-fertility population explosion is
+expensive. And the local checkout must match the DEPLOYED build or scores are
+biased (see MIXIN.md version-match note).
+`instruments/cw_sweep.py` in this lab wraps this into a paired multi-seed sweep.
+
 ## Beat 5 (First improvement) — the speed-stance question is reshaped
 
 The seed asks whether the user prefers a quick static check or shipping
