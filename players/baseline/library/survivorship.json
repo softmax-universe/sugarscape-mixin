@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "traits": {
+    "fertility": 1,
+    "aggression": 0
+  },
+  "movement": [
+    {
+      "score": [
+        "get",
+        "cell.welfare"
+      ]
+    }
+  ]
+}

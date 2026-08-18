@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "movement": [
+    {
+      "score": [
+        "+",
+        [
+          "get",
+          "cell.welfare"
+        ],
+        [
+          "*",
+          1,
+          [
+            "get",
+            "cell.occupied"
+          ]
+        ]
+      ]
+    }
+  ]
+}

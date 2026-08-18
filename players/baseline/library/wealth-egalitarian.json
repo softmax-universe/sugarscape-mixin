@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "traits": {
+    "aggression": 0,
+    "trade": 1,
+    "lending": 1
+  },
+  "movement": [
+    {
+      "score": [
+        "-",
+        [
+          "get",
+          "cell.welfare"
+        ],
+        [
+          "*",
+          0.5,
+          [
+            "get",
+            "cell.preyWealth"
+          ]
+        ]
+      ]
+    }
+  ]
+}
