@@ -1,7 +1,7 @@
 # The game (condensed for agents)
 
 Full human-facing docs live in the game repo —
-https://github.com/Metta-AI/coworld-sugarscape — whose `docs/RULES.md` is
+https://github.com/softmax-universe/coworld-sugarscape — whose `docs/RULES.md` is
 test-enforced against the implementation and always outranks this file.
 Human-shaped introductions: the repo's `docs/getting-started.md` and
 `docs/sugarlang-tutorial.md` (send the human there; use this file yourself).

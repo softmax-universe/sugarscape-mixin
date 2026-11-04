@@ -2,7 +2,7 @@
 
 The generic platform surface — auth, upload/submit semantics, API base
 URL, cross-game quirks — is the seed's `docs/platform.md`. The complete
-CLI/API reference is https://github.com/Metta-AI/coworld — **read its root
+CLI/API reference is https://github.com/softmax-universe/coworld — **read its root
 `COOKBOOK.md` first** for any task below; it gives both the `coworld` CLI
 form and the raw REST form. This file adds only what is sugarscape-shaped.
 

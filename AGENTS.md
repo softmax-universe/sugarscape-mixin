@@ -60,7 +60,7 @@ score is *enough*.
   fast. Do not import pacing habits from slow games.
 - Reproducibility: pinned interpreter + `PYTHONHASHSEED=0`; a recorded seed
   + config + rulesets reproduces an episode exactly.
-- `coworld` CLI reference: https://github.com/Metta-AI/coworld — read its
+- `coworld` CLI reference: https://github.com/softmax-universe/coworld — read its
   root `COOKBOOK.md` first for every CLI/API task (upload, submit, XP
   requests, episodes, logs, replays). Game-specific API notes live in
   `docs/observatory.md`.
@@ -68,7 +68,7 @@ score is *enough*.
 ## Mechanics ground truth
 
 The source of truth for game mechanics is
-**https://github.com/Metta-AI/coworld-sugarscape** (see MIXIN.md).
+**https://github.com/softmax-universe/coworld-sugarscape** (see MIXIN.md).
 `docs/RULES.md` there is test-enforced against the implementation and
 outranks everything, including this lab's docs. Verify mechanics claims
 against it — never from memory or guesses. Cache verified facts here with a

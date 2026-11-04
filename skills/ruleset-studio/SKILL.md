@@ -26,7 +26,7 @@ questions (lab AGENTS.md, Understand row).
 
 ## Launch runbook (handle silently — never narrate these mechanics)
 
-Prerequisites: a checkout of https://github.com/Metta-AI/coworld-sugarscape
+Prerequisites: a checkout of https://github.com/softmax-universe/coworld-sugarscape
 with its venv built (`uv sync`), Node.js, and a metta checkout at
 `~/coding/metta` (or pass `--metta-root`) for the chat-bridge server.
 
