@@ -10,9 +10,9 @@ extra capabilities are discoverable.
 | | |
 |---|---|
 | **Game** | Sugarscape (v3) |
-| **Coworld** | `coworld-sugarscape` v3 — `cow_049e7dc0-f4b5-49f8-81df-59ea73493b6a`; manifest at the repo root of https://github.com/Metta-AI/coworld-sugarscape (public) |
+| **Coworld** | `coworld-sugarscape` v3 — `cow_049e7dc0-f4b5-49f8-81df-59ea73493b6a`; manifest at the repo root of https://github.com/softmax-universe/coworld-sugarscape (public) |
 | **League(s)** | Solo (targeted generation): `league_620a74a7-eb1f-4386-b386-0e7246be4eb6` · Duos (targeted generation): `league_d5b48dfe-5e08-499f-80f1-63f14720c50c` · Commonwealth (handcrafted constitution): `league_dac00450-027a-45e6-9f6b-c9bda7ddd61d` |
-| **Game source of truth** | https://github.com/Metta-AI/coworld-sugarscape — public. `docs/RULES.md` is **test-enforced against the implementation** (`tests/test_rules_documentation.py`), so it outranks memory and this lab's own docs. Also `docs/TARGETS.md`, `docs/SCENARIOS.md`, `docs/PROTOCOL.md`. Never answer mechanics questions from memory |
+| **Game source of truth** | https://github.com/softmax-universe/coworld-sugarscape — public. `docs/RULES.md` is **test-enforced against the implementation** (`tests/test_rules_documentation.py`), so it outranks memory and this lab's own docs. Also `docs/TARGETS.md`, `docs/SCENARIOS.md`, `docs/PROTOCOL.md`. Never answer mechanics questions from memory |
 
 ## Provenance
 
